@@ -14,7 +14,7 @@
 
 
 function superbowlWin(record) {
-    function winningYear(gamData) {
+    function winningYear(gameData) {
         if (gameData.result === "W") {
             return true
         }
